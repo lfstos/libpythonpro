@@ -11,3 +11,4 @@ install:
   - pip install poetry
 script:
   - flake8
+  -
