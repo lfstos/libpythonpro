@@ -1,13 +1,8 @@
 language: python
 python:
   - 3.9.1
+dist: xenial
 before_install:
   - pip install poetry
 install:
   - poetry install
-script:
-  - poetry run flake8
-install:
-  - pip install poetry
-script:
-  - flake8
