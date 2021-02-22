@@ -3,9 +3,11 @@ python:
   - 3.9.1
 dist: xenial
 before_install:
-  - pip install poetry
+  - pip install poetry codecov
 install:
   - poetry install
 script:
   - poetry run flake8
-  - pytest tests
+  - pytest . --cov=tests
+after_success:
+  - codecov

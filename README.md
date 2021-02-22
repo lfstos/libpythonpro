@@ -8,6 +8,7 @@ Link do curso [Python Pro](https://www.python.pro.br/)
 [![Build Status](https://travis-ci.com/lfstos/libpythonpro.svg?branch=main)](https://travis-ci.com/lfstos/libpythonpro)
 [![Updates](https://pyup.io/repos/github/lfstos/libpythonpro/shield.svg)](https://pyup.io/repos/github/lfstos/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/lfstos/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/lfstos/libpythonpro/)
+[![codecov](https://codecov.io/gh/lfstos/libpythonpro/branch/main/graph/badge.svg?token=hJofpw2O4U)](https://codecov.io/gh/lfstos/libpythonpro)
 
 Suportada versão 3 de Python
 
