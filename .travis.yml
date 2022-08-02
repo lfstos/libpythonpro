@@ -1,6 +1,6 @@
 language: python
 version: 3.10
 install:
-  - pip install -q -r requirements.txt
+  - pip install -q -r requirements-dev.txt
 script:
   - flake8
