@@ -3,5 +3,7 @@ language: python
 version: 3.10
 install:
   - pip install -r requirements.txt
-"""script:
-  - flake8"""
+"""
+script:
+  - flake8
+"""
