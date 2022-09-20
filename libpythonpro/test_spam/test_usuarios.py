@@ -1,3 +1,7 @@
+from libpythonpro.spam.db import Conexao
+from libpythonpro.spam.modelos import Usuario
+
+
 def test_salvar_usuario():
     # Obtendo a conexão com o banco de dados. Gerencia a autenticação login e senha.
     conexao = Conexao()
@@ -34,7 +38,7 @@ def test_listar_usuarios():
     # Cetificando que o usuário foi salvo. Toda vez que um usuário é salvo, ele recebe um
     # ID gerado automaticamente que se não definirmos nada, então será um int,
     # e vamos nos certificar que existe um ID e que é uma instancia de int.
-    assert isinstance(usuario.id, int)
+    assert usuarios == sessao.listar()
     # Após o teste finalizar, precisamos tomar alguns cuidados:
     # Desfazendo todas as alterações que foram feitas no momento do teste
     sessao.roll_back()
