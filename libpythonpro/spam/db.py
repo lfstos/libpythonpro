@@ -14,7 +14,8 @@ class Sessao:
         return self.usuarios
 
     def roll_back(self):
-        self.usuarios.clear()
+        # self.usuarios.clear()
+        pass
 
     def fechar(self):
         pass
