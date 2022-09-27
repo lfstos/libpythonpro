@@ -1,7 +1,8 @@
 class EnviadorDeSpam:
-    def __init__(self, sessao, Enviador):
+
+    def __init__(self, sessao, enviador):
         self.sessao = sessao
-        self.enviador = Enviador
+        self.enviador = enviador
 
     def enviar_emails(self, destinatario, assunto, corpo):
         for usuario in self.sessao.listar():
